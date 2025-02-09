@@ -10,9 +10,8 @@ import { Suspense } from "react";
 import "./globals.css";
 import Script from "next/script";
 
-const title = "Crimes";
-const description =
-  "刑事弁護の現場から収録された事例を網羅。「量刑調査報告集Ⅳ」で実務に役立つ情報を提供します。";
+const title = "Ashish";
+const description = "Portfolio";
 
 export const metadata: Metadata = {
   title: title,
