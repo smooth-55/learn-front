@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable @typescript-eslint/no-unused-vars */
 const removeBlankAttributes = (obj: any) =>
   Object.entries(obj).reduce((a: any, [k, v]) => {
