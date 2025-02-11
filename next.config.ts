@@ -1,7 +1,7 @@
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  distDir: "dist",
+  // distDir: "dist",
   trailingSlash: true,
   basePath: "",
   images: {
