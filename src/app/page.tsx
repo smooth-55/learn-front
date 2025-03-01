@@ -1,10 +1,10 @@
 "use client";
-import {Header, Main } from "@/components";
+import {ProjectContainer, Header, Main, SkillContainer } from "@/components";
 
 export default function Home() {
   return (
     <>
-      <div className="flex h-screen flex-col" style={{ 
+      <div className="flex h-screen flex-col scrollbar-hide" style={{ 
         backgroundImage: `url('/assets/bg.jpg')`,
          backgroundSize: 'cover',
           backgroundPosition: 'center'
@@ -12,10 +12,13 @@ export default function Home() {
        <div className="absolute inset-0 backdrop-blur-sm bg-black/50"></div>
        <Header />
        <Main />
+      </div>
+      <div className="main__container bg-bg_primary">
+        <SkillContainer/>
+        <ProjectContainer/>
+       </div>
 
-        </div>
       
-
     </>
   );
 }

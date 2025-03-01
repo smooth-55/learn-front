@@ -12,7 +12,7 @@ const Main: React.FC = () => {
     return () => clearInterval(interval);
   }, []);
   return <Col className="h-[100vh] text-white flex flex-col items-center justify-center gap-0">
-      <Typography.Text className="!text-5xl font-bold text-white">{words[index]}</Typography.Text>
+      <Typography.Text className="!text-5xl font-bold text-white text-center">{words[index]}</Typography.Text>
       
   </Col>;
 };
