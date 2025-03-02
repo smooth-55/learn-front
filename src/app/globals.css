@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@layer components {
+  .nav_item {
+    @apply text-white hover:text-red-500 hover:font-bold hover:border-b hover:border-red-500 hover:cursor-pointer;
+  }
+  link {
+    @apply text-white;
+  }
+  body {
+    @apply text-white;
+  }
+}
+
+.ant-drawer-header {
+  border-bottom: 1px solid white !important;
+}
