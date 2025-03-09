@@ -1,15 +1,8 @@
 "use client";
-import { Row } from "antd";
 import React from "react";
 
-const SkillContainer: React.FC = () => {
-    return (
-
-        <Row className="text-primary  h-screen mx-[14px]">
-            MY SKILL CONTAINER
-        </Row>
-
-    )
+const Skill: React.FC = () => {
+  return <div className="bg-gray-400  h-screen">MY SKILL CONTAINER</div>;
 };
 
-export { SkillContainer };
+export { Skill };

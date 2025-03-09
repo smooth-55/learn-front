@@ -1,20 +1,22 @@
-"use client";
-import React from "react";
+import Link from "next/link";
 
-const Footer: React.FC = () => {
+const Footer = () => {
   const year = new Date().getFullYear();
+
   return (
-    <>
-      <div
-        className={
-          "flex w-full items-center justify-center gap-[10px] bg-[#1f1f1f] py-[10px]"
-        }
-      >
-        <span
-          className={"text-[14px] font-medium leading-[20px] text-white"}
-        >{`Copyright ${year} © ${"Ashish"}`}</span>
+    <footer
+      className="relative footer flex items-center justify-center h-10 bg-color1 "
+      id="footer"
+    >
+      <div className="copyright">
+        <p>
+          {`Copyright © ${year}`}{" "}
+          <Link href={"/"}>
+            <span className="text-blue-500">Ashish Dhakal</span>
+          </Link>
+        </p>
       </div>
-    </>
+    </footer>
   );
 };
 
