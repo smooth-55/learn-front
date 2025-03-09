@@ -1,7 +1,4 @@
-import {
-  HydratedQueryClientProvider,
-  LoaderWrapper,
-} from "@/components";
+import { HydratedQueryClientProvider, LoaderWrapper } from "@/components";
 import { themeConfig } from "@/utils/theme";
 import { ConfigProvider } from "antd";
 import enUS from "antd/lib/locale/en_US";
@@ -9,7 +6,7 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 import "./globals.css";
 
-const title = "Ashish";
+const title = "Ashish | Portfolio";
 const description = "Portfolio";
 
 export const metadata: Metadata = {
@@ -31,7 +28,11 @@ export default function RootLayout({
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="theme-color" content="#091c2be8" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="#091c2be8" />
+        <meta
+          name="apple-mobile-web-app-status-bar-style"
+          content="#091c2be8"
+        />
+        <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"></link>
       </head>
       <ConfigProvider
         theme={{
@@ -46,9 +47,7 @@ export default function RootLayout({
         <HydratedQueryClientProvider>
           <body>
             <Suspense>
-              <LoaderWrapper>
-                {children}
-              </LoaderWrapper>
+              <LoaderWrapper>{children}</LoaderWrapper>
             </Suspense>
           </body>
         </HydratedQueryClientProvider>
