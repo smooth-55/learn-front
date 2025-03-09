@@ -15,8 +15,7 @@ export default {
     },
     extend: {
       colors: {
-        primary: "white",
-        bg_primary: "#091c2be8",
+        color1: "#081826",
       },
     },
   },
