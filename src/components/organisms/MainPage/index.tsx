@@ -14,8 +14,8 @@ const MainPage = () => {
       <Header />
       <HiroSection />
       <About />
-      <Project />
       <Skill />
+      <Project />
       <Contact />
       <Footer />
     </div>
