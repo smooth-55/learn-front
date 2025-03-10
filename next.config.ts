@@ -6,6 +6,8 @@ const nextConfig = {
   basePath: "",
   images: {
     unoptimized: true,
+    loader: "akamai",
+    path: "/",
   },
 };
 
