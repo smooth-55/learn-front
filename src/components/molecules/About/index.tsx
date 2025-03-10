@@ -19,7 +19,7 @@ const About = () => {
         <div className="right__section h-full  md:w-[50%] ">
           <Image
             className=""
-            src="/assets/1.jpg"
+            src="assets/1.jpg"
             alt="profile"
             width={800}
             height={500}
