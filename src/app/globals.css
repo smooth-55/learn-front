@@ -13,7 +13,7 @@
     @apply text-white hover:text-red-500 hover:font-bold hover:border-b hover:border-red-500 hover:cursor-pointer;
   }
   .calc_height {
-    @apply h-[calc(100vh-75px)] scroll-mt-[75px];
+    @apply min-h-[calc(100vh-75px)] scroll-mt-[75px];
   }
 }
 
