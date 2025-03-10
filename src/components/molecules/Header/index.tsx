@@ -20,14 +20,14 @@ const Header: React.FC = () => {
       <Link href="#home" className="nav_item" onClick={onClose}>
         Home
       </Link>
+      <Link href="#about" className="nav_item" onClick={onClose}>
+        About
+      </Link>
       <Link href="#projects" className="nav_item" onClick={onClose}>
         Projects
       </Link>
       <Link href="#skills" className="nav_item" onClick={onClose}>
         Skills
-      </Link>
-      <Link href="#about" className="nav_item" onClick={onClose}>
-        About
       </Link>
       <Link href="#contact" className="nav_item" onClick={onClose}>
         Contact
