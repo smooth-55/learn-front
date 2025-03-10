@@ -7,11 +7,15 @@ const Skill: React.FC = () => {
   const skills = [
     {
       name: "Golang",
-      percent: 50,
+      percent: 60,
     },
     {
       name: "Python",
       percent: 60,
+    },
+    {
+      name: "MySQL",
+      percent: 55,
     },
     {
       name: "HTML",
