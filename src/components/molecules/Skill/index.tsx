@@ -2,7 +2,11 @@
 import React from "react";
 
 const Skill: React.FC = () => {
-  return <div className="bg-gray-400  h-screen">MY SKILL CONTAINER</div>;
+  return (
+    <div id="skills" className="calc_height bg-gray-400">
+      MY SKILL CONTAINER
+    </div>
+  );
 };
 
 export { Skill };

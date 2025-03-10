@@ -10,12 +10,12 @@ import {
 
 const MainPage = () => {
   return (
-    <div className="conainer w-full">
+    <div className="">
       <Header />
       <HiroSection />
-      <About />
       <Project />
       <Skill />
+      <About />
       <Contact />
       <Footer />
     </div>

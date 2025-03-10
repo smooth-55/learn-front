@@ -17,31 +17,28 @@ const Header: React.FC = () => {
 
   const navigation_menu = (
     <div className="flex flex-col gap-4 md:flex-row">
-      <div className="nav_item" onClick={onClose}>
-        <Link href="#home" className="">
-          <span className="text-white">Home</span>
-        </Link>
-      </div>
-      <div className="nav_item " onClick={onClose}>
-        <Link href="#about">
-          <span className="text-white">About</span>
-        </Link>
-      </div>
-      <div className="nav_item" onClick={onClose}>
-        <Link href="#contact">
-          <span className="text-white">Contact</span>
-        </Link>
-      </div>
-      <div className="nav_item" onClick={onClose}>
-        <Link href="/">
-          <span className="text-white">Blog</span>
-        </Link>
-      </div>
-      <div className="nav_item" onClick={onClose}>
-        <Link href="/">
-          <span className="text-white">My Resume</span>
-        </Link>
-      </div>
+      <Link href="#home" className="nav_item" onClick={onClose}>
+        Home
+      </Link>
+      <Link href="#projects" className="nav_item" onClick={onClose}>
+        Projects
+      </Link>
+      <Link href="#skills" className="nav_item" onClick={onClose}>
+        Skills
+      </Link>
+      <Link href="#about" className="nav_item" onClick={onClose}>
+        About
+      </Link>
+      <Link href="#contact" className="nav_item" onClick={onClose}>
+        Contact
+      </Link>
+      <Link href="/" className="nav_item" onClick={onClose}>
+        Blog
+      </Link>
+      <Link href="/" className="nav_item" onClick={onClose}>
+        My Resume
+      </Link>
+
       {/* <div className="nav_item hidden md:block" onClick={onClose}>
         <Link href="/">HIRE ME</Link>
       </div> */}
@@ -50,7 +47,7 @@ const Header: React.FC = () => {
   return (
     <section
       id="nav"
-      className="p-4 bg-color1 flex items-center justify-between sticky top-0 z-10"
+      className="h-[75px] p-4 bg-color1 flex items-center justify-between sticky top-0 z-10 w-full"
     >
       <div className="logo flex">
         <Link href="/">

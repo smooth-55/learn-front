@@ -5,7 +5,7 @@ const Footer = () => {
 
   return (
     <footer
-      className="relative footer flex items-center justify-center h-10 bg-color1 "
+      className="footer flex items-center justify-center h-10 bg-color1 "
       id="footer"
     >
       <div className="copyright">
