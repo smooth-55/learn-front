@@ -3,7 +3,7 @@ import Link from "next/link";
 const HiroSection = () => {
   return (
     <section
-      className="scroll-mt-[75px] relative  h-64 sm:h-80 md:h-96 lg:h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat bg-[url('/assets/bg.jpg')]"
+      className="scroll-mt-[75px] relative h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat bg-[url('/assets/bg.jpg')]"
       id="home"
     >
       <div className="absolute inset-0 backdrop-blur-[1px] bg-black/50"></div>

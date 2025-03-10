@@ -13,9 +13,9 @@ const MainPage = () => {
     <div className="">
       <Header />
       <HiroSection />
+      <About />
       <Project />
       <Skill />
-      <About />
       <Contact />
       <Footer />
     </div>
